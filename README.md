@@ -19,5 +19,5 @@
 		location /tim {
     		tim on;
 		}
-	2.使用访问地址进行测试<br/>
+	2.使用访问地址进行测试
 		http://{ip}:{port}/tim/address?
