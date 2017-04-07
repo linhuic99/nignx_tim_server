@@ -13,10 +13,11 @@
   make <br/>
   make install <br/>
 
-# 使用方式
-	1.比如在Nginx模块的配置文件 nginx/conf/nginx.conf server段中增加如下配置<br/>
-		location /tim {<br/>
-    		tim on;<br/>
-		}<br/>
+# 编译方式
+	
+	1.比如在Nginx模块的配置文件 nginx/conf/nginx.conf server段中增加如下配置
+		location /tim {
+    		tim on;
+		}
 	2.使用访问地址进行测试<br/>
-		http://{ip}:{port}/tim/address?<br/>
+		http://{ip}:{port}/tim/address?
