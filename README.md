@@ -13,7 +13,7 @@
   make <br/>
   make install <br/>
 
-# 编译方式
+# 使用方式
 	
 	1.比如在Nginx模块的配置文件 nginx/conf/nginx.conf server段中增加如下配置
 		location /tim {
