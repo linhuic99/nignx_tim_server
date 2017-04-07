@@ -17,7 +17,7 @@
 	
 	1.比如在Nginx模块的配置文件 nginx/conf/nginx.conf server段中增加如下配置
 	location /tim {
-    		tim on;
+    	tim on;
 	}
 	2.使用访问地址进行测试
 	http://{ip}:{port}/tim/address?
