@@ -12,3 +12,11 @@
   ./configure --prefix=/home/linhui/nginx --add-module=ngx_http_tim_module <br/>
   make <br/>
   make install <br/>
+
+#使用方式
+	1.比如在Nginx模块的配置文件 nginx/conf/nginx.conf server段中增加如下配置
+		location /tim {
+    		tim on;
+		}
+	2.使用访问地址进行测试
+		http://{ip}:{port}/tim/address?
