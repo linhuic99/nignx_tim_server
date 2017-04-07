@@ -1,0 +1,6 @@
+1、nginx版本：1.10.2
+2、把ngx_http_tim_module放到nginx源码目录中
+3、编译安装nginx
+   ./configure --prefix=/home/linhui/nginx --add-module=ngx_http_tim_module
+   make
+   make install
